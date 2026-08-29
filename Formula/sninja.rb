@@ -7,18 +7,18 @@
 class Sninja < Formula
   desc "Share.Ninja command line: secure file transfers, and the commander TUI (sninja cmd)"
   homepage "https://share.ninja"
-  version "0.1.4095"
+  version "0.1.4123"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://downloads.share.ninja/sninja/sninja-0.1.4095-aarch64-apple-darwin.tar.gz"
-      sha256 "169e445db2f662134ecc55cc0c779177b3f42a74851bf49a8b7dc417029d87d1"
+      url "https://downloads.share.ninja/sninja/sninja-0.1.4123-aarch64-apple-darwin.tar.gz"
+      sha256 "91838bb4ded1c93c6425b4c71c88ce0d11e20d6b854dae8bb5f2d091fb74ea13"
     end
     on_intel do
-      url "https://downloads.share.ninja/sninja/sninja-0.1.4095-x86_64-apple-darwin.tar.gz"
-      sha256 "1b4291c93a5da7dbd88cc0e1d18aef2792b41bd2e7e76b6bad202444290359a9"
+      url "https://downloads.share.ninja/sninja/sninja-0.1.4123-x86_64-apple-darwin.tar.gz"
+      sha256 "3764b36acf4bcb3ae56357575e6d91cd31b97478bcd73b5b8bbcbeac0f30514d"
     end
   end
 
