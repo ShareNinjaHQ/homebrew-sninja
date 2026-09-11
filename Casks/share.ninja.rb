@@ -5,8 +5,8 @@
 #   brew tap shareninjahq/sninja
 #   brew install --cask share.ninja
 cask "share.ninja" do
-  version "1.1.4247"
-  sha256 "bff68e60c07cb74ecea195978da956580f4fdc6dd7c7e9f6f73e1e06dc138e28"
+  version "1.1.4314"
+  sha256 "bef8a125ce6d97fdd5193350c793445b90841d9c22423c0627db514cd4c030cc"
 
   url "https://downloads.share.ninja/Share.Ninja-#{version}.zip"
   name "Share.Ninja"
