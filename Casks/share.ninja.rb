@@ -5,17 +5,18 @@
 #   brew tap shareninjahq/sninja
 #   brew install --cask share.ninja
 cask "share.ninja" do
-  version "1.1.4314"
-  sha256 "bef8a125ce6d97fdd5193350c793445b90841d9c22423c0627db514cd4c030cc"
+  version "1.1.4377"
+  sha256 "4907a8e51d09badd6b95aa0526089e485c88074c078ae66aa495c57e1102ed13"
 
   url "https://downloads.share.ninja/Share.Ninja-#{version}.zip"
   name "Share.Ninja"
-  desc "Share.Ninja secure file sharing app"
+  desc "End-to-end encrypted file sharing: send a link, or send to a device nearby"
   homepage "https://share.ninja"
 
   # The app updates itself (Tauri updater feed) — `brew upgrade` leaves it
   # alone unless run with --greedy.
   auto_updates true
+  depends_on macos: ">= :ventura"
   depends_on arch: :arm64
 
   app "Share.Ninja.app"
