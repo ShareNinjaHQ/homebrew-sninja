@@ -5,13 +5,13 @@
 #   brew tap shareninjahq/sninja
 #   brew install sninja
 class Sninja < Formula
-  desc "Share.Ninja command line: secure file transfers, and the commander TUI (sninja cmd)"
+  desc "Share.Ninja command line and two-pane file manager (sninja cmd)"
   homepage "https://share.ninja"
-  version "1.1.4306"
-  url "https://downloads.share.ninja/sninja/sninja-1.1.4306-aarch64-apple-darwin.tar.gz"
-  sha256 "e4399c919bc8e67fd37383000442a4d2383fc0ef0d0752eb3c8accd12915b855"
+  version "1.1.4470"
+  url "https://downloads.share.ninja/sninja/sninja-1.1.4470-aarch64-apple-darwin.tar.gz"
+  sha256 "cb312e7e6228accea0ed8d0a3e1e7b98c460f447315011c1e4cb37dd653deeff"
 
-  depends_on :macos
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   def install
