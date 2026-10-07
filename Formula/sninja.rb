@@ -7,9 +7,9 @@
 class Sninja < Formula
   desc "Share.Ninja command line and two-pane file manager (sninja cmd)"
   homepage "https://share.ninja"
-  version "1.1.4688"
-  url "https://downloads.share.ninja/sninja/sninja-1.1.4688-aarch64-apple-darwin.tar.gz"
-  sha256 "ad78ebf59f40e93fd6a8bdbb6118c8633092203e97ec2d366ec042eb3eef1ad3"
+  version "1.1.4999"
+  url "https://downloads.share.ninja/sninja/sninja-1.1.4999-aarch64-apple-darwin.tar.gz"
+  sha256 "3baa9d8557503c38c7c2b0434541e041d12f30c9305ca93dceba7191a85a181a"
 
   depends_on macos: :ventura
   depends_on arch: :arm64
